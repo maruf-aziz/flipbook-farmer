@@ -170,43 +170,84 @@
                     <?php
 
                     for ($i = 0; $i < $page; $i++) {
+
+                        if ($i + 1 == 11 || $i + 1 == 13 || $i + 1 == 14 || $i + 1 == 15 || $i + 1 == 16 || $i + 1 == 20 || $i + 1 == 21 || $i + 1 == 22 || $i + 1 == 23 || $i + 1 == 27 || $i + 1 == 28 || $i + 1 == 29 || $i + 1 == 30 || $i + 1 == 31 || $i + 1 == 32 || $i + 1 == 33 || $i + 1 == 35) {
                     ?>
-                        <!-- BEGIN PAGE -->
-                        <div data-background-image="pages/<?= $i + 1; ?>_-min.jpg" class="fb5-double fb5-first">
+                            <!-- BEGIN PAGE -->
+                            <div data-background-image="pages/gif/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-first">
 
-                            <!-- container page book -->
-                            <div class="fb5-cont-page-book">
+                                <!-- container page book -->
+                                <div class="fb5-cont-page-book">
 
-                                <!-- description for page from  -->
-                                <div class="fb5-page-book">
+                                    <!-- description for page from  -->
+                                    <div class="fb5-page-book">
 
-                                </div>
-
-                            </div>
-                            <!-- end container page book -->
-
-                        </div>
-                        <!-- END PAGE  -->
-
-
-
-                        <!-- BEGIN PAGE -->
-                        <div data-background-image="pages/<?= $i + 1; ?>_-min.jpg" class="fb5-double fb5-second">
-
-                            <!-- container page book -->
-                            <div class="fb5-cont-page-book">
-
-                                <!-- description for page from  -->
-                                <div class="fb5-page-book">
+                                    </div>
 
                                 </div>
+                                <!-- end container page book -->
 
                             </div>
-                            <!-- end container page book -->
+                            <!-- END PAGE  -->
 
-                        </div>
-                        <!-- END PAGE -->
+
+
+                            <!-- BEGIN PAGE -->
+                            <div data-background-image="pages/gif/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-second">
+
+                                <!-- container page book -->
+                                <div class="fb5-cont-page-book">
+
+                                    <!-- description for page from  -->
+                                    <div class="fb5-page-book">
+
+                                    </div>
+
+                                </div>
+                                <!-- end container page book -->
+
+                            </div>
+                            <!-- END PAGE -->
+                        <?php
+                        } else {
+                        ?>
+                            <!-- BEGIN PAGE -->
+                            <div data-background-image="pages/<?= $i + 1; ?>_-min.jpg" class="fb5-double fb5-first">
+
+                                <!-- container page book -->
+                                <div class="fb5-cont-page-book">
+
+                                    <!-- description for page from  -->
+                                    <div class="fb5-page-book">
+
+                                    </div>
+
+                                </div>
+                                <!-- end container page book -->
+
+                            </div>
+                            <!-- END PAGE  -->
+
+
+
+                            <!-- BEGIN PAGE -->
+                            <div data-background-image="pages/<?= $i + 1; ?>_-min.jpg" class="fb5-double fb5-second">
+
+                                <!-- container page book -->
+                                <div class="fb5-cont-page-book">
+
+                                    <!-- description for page from  -->
+                                    <div class="fb5-page-book">
+
+                                    </div>
+
+                                </div>
+                                <!-- end container page book -->
+
+                            </div>
+                            <!-- END PAGE -->
                     <?php
+                        }
                     }
 
                     ?>
