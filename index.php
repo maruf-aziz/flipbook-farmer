@@ -174,7 +174,7 @@
                         if ($i + 1 == 11 || $i + 1 == 13 || $i + 1 == 14 || $i + 1 == 15 || $i + 1 == 16 || $i + 1 == 20 || $i + 1 == 21 || $i + 1 == 22 || $i + 1 == 23 || $i + 1 == 27 || $i + 1 == 28 || $i + 1 == 29 || $i + 1 == 30 || $i + 1 == 31 || $i + 1 == 32 || $i + 1 == 33 || $i + 1 == 35) {
                     ?>
                             <!-- BEGIN PAGE -->
-                            <div data-background-image="pages/gif/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-first">
+                            <div data-background-image="pages/gif2/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-first">
 
                                 <!-- container page book -->
                                 <div class="fb5-cont-page-book">
