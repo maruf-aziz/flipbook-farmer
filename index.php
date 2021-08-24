@@ -86,7 +86,7 @@
 
                         <?php
 
-                        $page = 40;
+                        $page = 41;
                         $count = $page * 2;
 
                         for ($i = 0; $i < $count; $i++) {
@@ -105,7 +105,7 @@
 
 
                 <!-- BEGIN ABOUT -->
-                <section id="fb5-about">
+                <!-- <section id="fb5-about">
                     <h3><i class="fa fa-search-plus"></i> ZOOM IN</h3>
                     <p>Tekan ikon tersebut pada navigasi untuk melakukan perbesaran kedalam</p>
                     <p>&nbsp;</p>
@@ -121,7 +121,7 @@
                     <h3><i class="fa fa-home"></i> HOME</h3>
                     <p>Tekan ikon tersebut pada navigasi untuk kembali ke halaman pertama</p>
                     <p>&nbsp;</p>
-                </section>
+                </section> -->
                 <!-- END ABOUT -->
 
 
@@ -171,7 +171,7 @@
 
                     for ($i = 0; $i < $page; $i++) {
 
-                        if ($i + 1 == 11 || $i + 1 == 13 || $i + 1 == 14 || $i + 1 == 15 || $i + 1 == 16 || $i + 1 == 20 || $i + 1 == 21 || $i + 1 == 22 || $i + 1 == 23 || $i + 1 == 27 || $i + 1 == 28 || $i + 1 == 29 || $i + 1 == 30 || $i + 1 == 31 || $i + 1 == 32 || $i + 1 == 33 || $i + 1 == 35) {
+                        if ($i + 1 == 12 || $i + 1 == 14 || $i + 1 == 15 || $i + 1 == 16 || $i + 1 == 17 || $i + 1 == 21 || $i + 1 == 22 || $i + 1 == 23 || $i + 1 == 24 || $i + 1 == 28 || $i + 1 == 29 || $i + 1 == 30 || $i + 1 == 31 || $i + 1 == 32 || $i + 1 == 33 || $i + 1 == 34 || $i + 1 == 36) {
                     ?>
                             <!-- BEGIN PAGE -->
                             <div data-background-image="pages/gif2/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-first">
@@ -193,7 +193,7 @@
 
 
                             <!-- BEGIN PAGE -->
-                            <div data-background-image="pages/gif/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-second">
+                            <div data-background-image="pages/gif2/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-second">
 
                                 <!-- container page book -->
                                 <div class="fb5-cont-page-book">
@@ -469,7 +469,7 @@
 
             // console.log(arr[5]);
 
-            if (arr[arr.length - 1] == '1') {
+            if (arr[arr.length - 1] == '2') {
                 sound = new Howl({
                     src: ['audio/cover.m4a'],
                     volume: 1.0,
@@ -477,7 +477,7 @@
                 sound.play()
                 // sound.pause()
             } else {
-                for (let index = 9; index <= 34; index++) {
+                for (let index = 10; index <= 35; index++) {
                     if (parseInt(arr[arr.length - 1]) == index) {
                         sound = new Howl({
                             src: ['audio/' + (index - 8) + '.m4a'],
@@ -497,9 +497,9 @@
 
             audioPause.call();
 
-            // console.log(arr[5]);
+            console.log(arr[5]);
 
-            if (arr[arr.length - 1] == '0') {
+            if (arr[arr.length - 1] == '1') {
                 sound = new Howl({
                     src: ['audio/cover.m4a'],
                     volume: 1.0,
@@ -507,7 +507,7 @@
                 sound.play()
                 // sound.pause()
             } else {
-                for (let index = 9; index <= 34; index++) {
+                for (let index = 10; index <= 35; index++) {
                     if (parseInt(arr[arr.length - 1]) == index - 1) {
                         sound = new Howl({
                             src: ['audio/' + (index - 8) + '.m4a'],
@@ -529,7 +529,7 @@
 
             // console.log(arr[5]);
 
-            if (arr[arr.length - 1] == '2') {
+            if (arr[arr.length - 1] == '3') {
                 sound = new Howl({
                     src: ['audio/cover.m4a'],
                     volume: 1.0,
@@ -537,7 +537,7 @@
                 sound.play()
                 // sound.pause()
             } else {
-                for (let index = 9; index <= 34; index++) {
+                for (let index = 10; index <= 35; index++) {
                     if (parseInt(arr[arr.length - 1]) == index + 1) {
                         sound = new Howl({
                             src: ['audio/' + (index - 8) + '.m4a'],
