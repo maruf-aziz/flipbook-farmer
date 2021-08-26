@@ -86,7 +86,7 @@
 
                         <?php
 
-                        $page = 41;
+                        $page = 40;
                         $count = $page * 2;
 
                         for ($i = 0; $i < $count; $i++) {
@@ -105,23 +105,19 @@
 
 
                 <!-- BEGIN ABOUT -->
-                <!-- <section id="fb5-about">
-                    <h3><i class="fa fa-search-plus"></i> ZOOM IN</h3>
-                    <p>Tekan ikon tersebut pada navigasi untuk melakukan perbesaran kedalam</p>
-                    <p>&nbsp;</p>
-                    <h3><i class="fa fa-search-minus"></i> ZOOM OUT</h3>
-                    <p>Tekan ikon tersebut pada navigasi untuk melakukan perbesaran keluar</p>
-                    <p>&nbsp;</p>
-                    <h3><i class="fa fa-volume-up"></i> PLAY AUDIO</h3>
-                    <p>Tekan ikon tersebut pada navigasi untuk memutar audio (tidak pada semua halaman)</p>
-                    <p>&nbsp;</p>
-                    <h3><i class="fa fa-th"></i> SHOW ALL PAGES</h3>
-                    <p>Tekan ikon tersebut pada navigasi untuk menampilkan semua halaman</p>
-                    <p>&nbsp;</p>
-                    <h3><i class="fa fa-home"></i> HOME</h3>
-                    <p>Tekan ikon tersebut pada navigasi untuk kembali ke halaman pertama</p>
-                    <p>&nbsp;</p>
-                </section> -->
+                <section id="fb5-about">
+                    <h3>PETUNJUK PENGGUNAAN</h3>
+                    <h3>1. Baca dan dengarkan cerita dengan seksama</h3>
+                    <h3>2. Tekan tanda <i class="fa fa-arrow-right"></i> untuk membuka halaman berikutnya</h3>
+                    <h3>3. Tekan tanda <i class="fa fa-arrow-left"></i> untuk membuka halaman sebelumnya</h3>
+                    <h3>4. Tekan tanda <i class="fa fa-search-plus"></i> untuk memperbesar kedalam tampilan</h3>
+                    <h3>5. Tekan tanda <i class="fa fa-search-minus"></i> untuk memperbesar keluar tampilan</h3>
+                    <h3>6. Tekan tanda <i class="fa fa-th"></i> untuk menampilkan semua halaman</h3>
+                    <h3>7. Tekan tanda <i class="fa fa-volume-up"></i> untuk menampilkan bunyi</h3>
+                    <h3>8. Tekan tanda <i class="fa fa-home"></i> untuk membuka kembali ke halaman awal</h3>
+                    <h3>9. Pahami ceirta di setiap halaman</h3>
+                    <h3>10. Setelah itu kerjakan lembar evaluasi yang terdapat dalam buku cerita</h3>
+                </section>
                 <!-- END ABOUT -->
 
 
@@ -140,13 +136,13 @@
                                 <div id="fb5-cover">
                                     <ul>
                                         <li>
-                                            <a href="#"><img data-src="pages/1_-min.jpg"></a>
+                                            <a href="#"><img data-src="pages/1-min.jpg"></a>
                                         </li>
                                         <li>
-                                            <a href="#"><img data-src="pages/15_-min.jpg"></a>
+                                            <a href="#"><img data-src="pages/15-min.jpg"></a>
                                         </li>
                                         <li>
-                                            <a href=""><img data-src="pages/26_-min.jpg"></a>
+                                            <a href=""><img data-src="pages/26-min.jpg"></a>
                                         </li>
                                     </ul>
                                     <img data-src="logo/logo3.png" id="fb5-logo-cover">
@@ -171,10 +167,10 @@
 
                     for ($i = 0; $i < $page; $i++) {
 
-                        if ($i + 1 == 12 || $i + 1 == 14 || $i + 1 == 15 || $i + 1 == 16 || $i + 1 == 17 || $i + 1 == 21 || $i + 1 == 22 || $i + 1 == 23 || $i + 1 == 24 || $i + 1 == 28 || $i + 1 == 29 || $i + 1 == 30 || $i + 1 == 31 || $i + 1 == 32 || $i + 1 == 33 || $i + 1 == 34 || $i + 1 == 36) {
+                        if ($i + 1 == 11 || $i + 1 == 13 || $i + 1 == 14 || $i + 1 == 15 || $i + 1 == 16 || $i + 1 == 20 || $i + 1 == 21 || $i + 1 == 22 || $i + 1 == 23 || $i + 1 == 27 || $i + 1 == 28 || $i + 1 == 29 || $i + 1 == 30 || $i + 1 == 31 || $i + 1 == 32 || $i + 1 == 33 || $i + 1 == 35) {
                     ?>
                             <!-- BEGIN PAGE -->
-                            <div data-background-image="pages/gif2/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-first">
+                            <div data-background-image="pages/gif/<?= $i + 1; ?>.gif" class="fb5-double fb5-first">
 
                                 <!-- container page book -->
                                 <div class="fb5-cont-page-book">
@@ -193,7 +189,7 @@
 
 
                             <!-- BEGIN PAGE -->
-                            <div data-background-image="pages/gif2/<?= $i + 1; ?>-min.gif" class="fb5-double fb5-second">
+                            <div data-background-image="pages/gif/<?= $i + 1; ?>.gif" class="fb5-double fb5-second">
 
                                 <!-- container page book -->
                                 <div class="fb5-cont-page-book">
@@ -212,7 +208,7 @@
                         } else {
                         ?>
                             <!-- BEGIN PAGE -->
-                            <div data-background-image="pages/<?= $i + 1; ?>_-min.jpg" class="fb5-double fb5-first">
+                            <div data-background-image="pages/<?= $i + 1; ?>-min.jpg" class="fb5-double fb5-first">
 
                                 <!-- container page book -->
                                 <div class="fb5-cont-page-book">
@@ -231,7 +227,7 @@
 
 
                             <!-- BEGIN PAGE -->
-                            <div data-background-image="pages/<?= $i + 1; ?>_-min.jpg" class="fb5-double fb5-second">
+                            <div data-background-image="pages/<?= $i + 1; ?>-min.jpg" class="fb5-double fb5-second">
 
                                 <!-- container page book -->
                                 <div class="fb5-cont-page-book">
@@ -469,7 +465,7 @@
 
             // console.log(arr[5]);
 
-            if (arr[arr.length - 1] == '2') {
+            if (arr[arr.length - 1] == '1') {
                 sound = new Howl({
                     src: ['audio/cover.m4a'],
                     volume: 1.0,
@@ -477,7 +473,7 @@
                 sound.play()
                 // sound.pause()
             } else {
-                for (let index = 10; index <= 35; index++) {
+                for (let index = 9; index <= 34; index++) {
                     if (parseInt(arr[arr.length - 1]) == index) {
                         sound = new Howl({
                             src: ['audio/' + (index - 8) + '.m4a'],
@@ -497,9 +493,9 @@
 
             audioPause.call();
 
-            console.log(arr[5]);
+            // console.log(arr[5]);
 
-            if (arr[arr.length - 1] == '1') {
+            if (arr[arr.length - 1] == '0') {
                 sound = new Howl({
                     src: ['audio/cover.m4a'],
                     volume: 1.0,
@@ -507,7 +503,7 @@
                 sound.play()
                 // sound.pause()
             } else {
-                for (let index = 10; index <= 35; index++) {
+                for (let index = 9; index <= 34; index++) {
                     if (parseInt(arr[arr.length - 1]) == index - 1) {
                         sound = new Howl({
                             src: ['audio/' + (index - 8) + '.m4a'],
@@ -529,7 +525,7 @@
 
             // console.log(arr[5]);
 
-            if (arr[arr.length - 1] == '3') {
+            if (arr[arr.length - 1] == '2') {
                 sound = new Howl({
                     src: ['audio/cover.m4a'],
                     volume: 1.0,
@@ -537,7 +533,7 @@
                 sound.play()
                 // sound.pause()
             } else {
-                for (let index = 10; index <= 35; index++) {
+                for (let index = 9; index <= 34; index++) {
                     if (parseInt(arr[arr.length - 1]) == index + 1) {
                         sound = new Howl({
                             src: ['audio/' + (index - 8) + '.m4a'],
